@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/ui/animated_cross_fade_screen.dart';
+import 'package:flutter_app/ui/animated_default_text_style.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedCrossFadeScreen(/*title: 'Flutter Demo Home Page'*/),
+      home: AnimatedDafaultTextStyle(/*title: 'Flutter Demo Home Page'*/),
     );
   }
 }
