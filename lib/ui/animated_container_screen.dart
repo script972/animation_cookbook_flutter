@@ -33,7 +33,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
     );
   }
 
-  Align updateStateButton() {
+  Widget updateStateButton() {
     return Align(
       alignment: Alignment.bottomCenter,
       child: Padding(
