@@ -2,16 +2,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/ui/route/details_screen.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class RouteMainScreen extends StatefulWidget {
+  RouteMainScreen({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _RouteMainScreenState createState() => _RouteMainScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _RouteMainScreenState extends State<RouteMainScreen> {
   @override
   void initState() {
     super.initState();

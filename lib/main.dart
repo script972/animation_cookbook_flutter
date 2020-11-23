@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/ui/aligment_screen.dart';
+import 'package:flutter_app/ui/animated_container_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AlignmentScreen(/*title: 'Flutter Demo Home Page'*/),
+      home: AnimatedContainerScreen(/*title: 'Flutter Demo Home Page'*/),
     );
   }
 }
