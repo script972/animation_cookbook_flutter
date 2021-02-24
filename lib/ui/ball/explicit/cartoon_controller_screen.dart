@@ -15,7 +15,7 @@ class _CartoonControllerScreenState extends State<CartoonControllerScreen>
   void initState() {
     super.initState();
     positionController =
-        AnimationController(vsync: this, duration: Duration(seconds: 2));
+        AnimationController(value: this, duration: Duration(seconds: 2));
     positionController.addListener(() {
       setState(() {});
     });
